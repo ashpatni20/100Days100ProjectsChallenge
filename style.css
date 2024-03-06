@@ -114,6 +114,11 @@ tr{
     font-size: x-large;
     text-align: center  ;
 }
-td{
-    background-color: rgb(236, 236, 236);
+
+.card td {
+    background-color: white;
+}
+
+.card tr:nth-child(even) td {
+    background-color: #f2f2f2;
 }

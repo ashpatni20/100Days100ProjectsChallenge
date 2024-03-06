@@ -12,9 +12,9 @@ function project(data) {
 
 
     const headingrow = `
-    <td>Day</td>
-    <td>Project Name</td>
-    <td>Link of Projects</td>
+    <td><strong>Day</strong></td>
+    <td><strong>Project Name</strong></td>
+    <td><strong>Link of Projects</strong></td>
     `;
     tableHeading.innerHTML = headingrow;
 
@@ -34,7 +34,10 @@ function project(data) {
         card.appendChild(tablerow);
         
             card.classList.add('card');
-        
+
+            
+                
+            
     });
 
     projects_container.appendChild(card);
