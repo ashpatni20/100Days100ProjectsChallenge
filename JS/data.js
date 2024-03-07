@@ -29,4 +29,10 @@ let data = [
         projectName:"Sticky Notes",
         link:"https://ashpatni20.github.io/Sticky_Notes/",
     },
+    {
+        id: '006',
+        github:"https://github.com/ashpatni20/SearchEmojiUI",
+        projectName:"Search Emoji",
+        link:"https://ashpatni20.github.io/SearchEmojiUI/",
+    }
 ]
