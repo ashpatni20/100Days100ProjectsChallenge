@@ -102,23 +102,30 @@ p{
 
 .card{
    
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
 }
-
+a{
+    text-decoration: none;
+}
 tr{
 
-    margin-top: 5% 5%;
-    border: 1px solid black;
+    border: 1px solid #CECECE;
     /* background-color: lightgray; */
-    font-size: x-large;
+    font-size : 1rem;
     text-align: center  ;
+    /* padding: 10px; */
+}
+td{
+    padding: 10px;
 }
 
-.card td {
-    background-color: white;
-}
 
 .card tr:nth-child(even) td {
     background-color: #f2f2f2;
+    
+}
+.tabletrheading{
+      font-weight: bolder;
+      font-size: 1.5rem;
 }
